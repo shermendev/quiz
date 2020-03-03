@@ -1,0 +1,54 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "@hot-loader/react-dom": "^16.12.0",
+    "@reduxjs/toolkit": "^1.2.5",
+    "bootstrap": "4.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-hot-loader": "^4.12.19",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-spring": "^8.0.27",
+    "redux": "^4.0.5"
+  },
+  "scripts": {
+    "build": "craco build --config config/craco.config.js",
+    "eject": "react-scripts eject",
+    "start": "craco start --config config/craco.config.js",
+    "sass-lint": "sass-lint -v -q --max-warnings=0",
+    "test": "craco test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@craco/craco": "^5.6.3",
+    "craco-plugin-react-hot-reload": "^0.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.18.3",
+    "node-sass": "^4.13.1",
+    "prettier": "^1.19.1",
+    "sass-lint": "^1.13.1"
+  }
+}

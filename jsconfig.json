@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es6",
+    "baseUrl": "./src/",
+    "paths": {
+      "~components/*": ["./components/*"],
+      "~config/*": ["./config/*"],
+      "~store/*": ["./store/*"],
+      "~styles/*": ["./styles/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
